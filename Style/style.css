@@ -30,6 +30,11 @@ body {
 	width: 20%;
 }
 
+.Twitter {
+	visibility: visible;
+	height: 980px;
+}
+
 footer{
     font-size: 80%;
     width: 100%;
