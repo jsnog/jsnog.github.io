@@ -55,4 +55,9 @@ footer address{
     color: #FFFFFF;
     letter-spacing: 5px;
     font-style: normal;
+	
+}
+
+footer address a {
+	color: #00FFFF;
 }
