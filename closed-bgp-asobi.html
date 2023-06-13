@@ -1,48 +1,91 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
+<meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>閉域網BGP遊び</title>
+  <link rel="stylesheet" type="text/css" href="/Style/style.css">
 </head>
 <body>
-  <h1>閉域網BGP遊び</h1>
-  <p>JSNOGでは<a href="https://www.ihanet.info/">IHANAT</a>や<a href="https://dn42.eu">DN42</a>などに代表される閉域網でのBGPによる経路交換を実験する場を提供しています</p>
-  <h2>閉域網BGP遊びとは?</h2>
-  <p>私がJSNOG-LT-1で初心者向けに発表した資料があるのでそれを見れば大体わかると思います</p>
-  <p>要約すると、インターネットで使われている技術を試しに使ってインターネットごっこしようぜというものです</p>
-  <iframe class="speakerdeck-iframe" style="border: 0px none; background: rgba(0, 0, 0, 0.1) padding-box; margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 50%; height: auto; aspect-ratio: 560 / 315;" src="https://speakerdeck.com/player/678d846f086c40e2b56475405630bda6?slide=3" title="#閉域網プライベートas運用 の人たちは一体何をしているのか?" allowfullscreen="true" data-ratio="1.7777777777777777" frameborder="0"></iframe>
-  <h2>参加方法</h2>
-  <p>Discord上の#閉域網プライベートas運用 チャンネルでAS番号と資源下さい！と言うと閉域網内で使えるプライベートAS番号とプライベートIPv4アドレス帯、ユニークローカルIPv6アドレス帯を発行します</p>
-  <p>発行されたらDiscord上でピア張りしましょう～とか言って他ASとピアを適当に張り経路交換をやりましょう</p>
-  <h2>留意事項</h2>
-  <ul>
-    <li>適当にやりましょう</li>
-    <li>基本的に学生のみでの運用です</li>
-    <li>基本的に公開の場でピアを張り合ってください(VPN接続の資格情報などの機密情報などは外でやり取りしてください)</li>
-    <li>資源が発行されたからと言って直ぐに活動を開始しなければいけないという訳ではありません</li>
-  </ul>
-  <h2>情報</h2>
-  <h3>資源割り当て表</h3>
-  <iframe style="width: 50%; aspect-ratio: 1/0.5;" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTtEyxTIZqKzPRuJoP8pGsugpoU8Aqh-gGrUK_3qPlQPy1vDwf_spAJQaD9t-RoUr4tbC3o68HKNoht/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
-  <h3>資源割り当て範囲</h3>
-  <ul>
-    <li>AS番号は65000-65535から順番に割り当て</li>
-    <li>IPv4アドレス帯は172.29.0.0/16から基本/27で順番に割り当て</li>
-    <li>IPv6アドレス帯はfd17:2290::/32から基本/56でランダムに割り当て</li>
-  </ul>
-  <h3>サービス一覧</h3>
-  <p>何も乗っかってない！</p>
-  <ul>
-    <li></li>
-  </ul>
-  <h3>サンプルコンフィグ/構成</h3>
-  <p>TODO</p>
-  <h3>接続図</h3>
-  <p>TODO BGPlayとかで誰かがやってくれる</p>
-
+  <div>
+    <div class="Title">
+      <h1>日本学生ネットワークオペレーター連合</h1>
+      <p>Discord上のコミュニティーである、日本学生ネットワークオペレーター連合(Japan Student Network Operators Group)のWebサイト(仮)です</p>
+    </div>
+    <hr>
+    <div class="Main">
+      <div class="Left">
+      </div>
+      <div class="Center List">
+        <div>
+          <h1>閉域網BGP遊び</h1>
+          <p>JSNOGでは<a href="https://www.ihanet.info/" target="_blank">IHANAT</a>や<a href="https://dn42.eu" target="_blank">DN42</a>などに代表される閉域網でのBGPによる経路交換を実験する場を提供しています</p>
+        </div>
+        <hr>
+        <div>
+          <h2>閉域網BGP遊びとは?</h2>
+          <p>私がJSNOG-LT-1で初心者向けに発表した資料があるのでそれを見れば大体わかると思います</p>
+          <p>要約すると、インターネットで使われている技術を試しに使ってインターネットごっこしようぜというものです</p>
+          <iframe class="speakerdeck-iframe" style="background: rgba(0, 0, 0, 0.1) padding-box; width: 50%; aspect-ratio: 560 / 315;" src="https://speakerdeck.com/player/678d846f086c40e2b56475405630bda6?slide=3" title="#閉域網プライベートas運用 の人たちは一体何をしているのか?" allowfullscreen="true" frameborder="0"></iframe>
+        </div>
+        <hr>
+        <div>
+          <h2>参加方法</h2>
+          <p>Discord上の#閉域網プライベートas運用 チャンネルでAS番号と資源下さい！と言うと閉域網内で使えるプライベートAS番号とプライベートIPv4アドレス帯、ユニークローカルIPv6アドレス帯を発行します</p>
+          <p>発行されたらDiscord上でピア張りしましょう～とか言って他ASとピアを適当に張り経路交換をやりましょう</p>
+        </div>
+        <hr>
+        <div>
+          <h2>留意事項</h2>
+          <ul>
+            <li>適当にやりましょう</li>
+            <li>基本的に学生のみでの運用です</li>
+            <li>基本的に公開の場でピアを張り合ってください(VPN接続の資格情報などの機密情報などは外でやり取りしてください)</li>
+            <li>資源が発行されたからと言って直ぐに活動を開始しなければいけないという訳ではありません</li>
+          </ul>
+        </div>
+        <hr>
+        <hr>
+        <div>
+          <h2>情報</h2>
+          <hr>
+          <div>
+            <h3>資源割り当て表</h3>
+            <iframe style="width: 50%; aspect-ratio: 1/0.5;" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTtEyxTIZqKzPRuJoP8pGsugpoU8Aqh-gGrUK_3qPlQPy1vDwf_spAJQaD9t-RoUr4tbC3o68HKNoht/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+          </div>
+          <hr>
+          <div>
+            <h3>資源割り当て範囲</h3>
+            <ul>
+              <li>AS番号は65000-65535から順番に割り当て</li>
+              <li>IPv4アドレス帯は172.29.0.0/16から基本/27で順番に割り当て</li>
+              <li>IPv6アドレス帯はfd17:2290::/32から基本/56でランダムに割り当て</li>
+            </ul>
+          </div>
+          <hr>
+          <div>
+            <h3>サービス一覧</h3>
+            <p>何も乗っかってない！</p>
+            <ul>
+              <li>N/A</li>
+            </ul>
+          </div>
+          <hr>
+          <div>
+            <h3>サンプルコンフィグ/構成</h3>
+            <p>TODO</p>
+          </div>
+          <hr>
+          <div>
+            <h3>接続図</h3>
+            <p>TODO BGPlayとかで誰かがやってくれる</p>
+          </div>
+        </div>
+      </div>
+      <div class="Right">
+        <iframe class="Twitter" scrolling="no" frameborder="0" title="Twitter Tweet" src="https://platform.twitter.com/embed/Tweet.html?dnt=falseamp;features=e30amp;hideThread=false&amp;id=1648282364014137344&amp;lang=ja" data-tweet-id="1648282364014137344"></iframe>
+      </div>
+    </div>
+  </div>
   <footer>
-    <p>些細な事でも助かるので、誤記や追加の要望などのPRやIssueは<a href="https://github.com/jsnog/jsnog.github.io">GitHubレポジトリ</a>にぜひ投げて下さい！(Discordでも問題ないです！)</p>
+    <address><p>些細な事でも助かるので、誤記や追加の要望などのPRやIssueは<a href="https://github.com/jsnog/jsnog.github.io" target="_blank">GitHubレポジトリ</a>にぜひ投げて下さい！(Discordでも問題ないです！)</p></address>
   </footer>
 </body>
 </html>

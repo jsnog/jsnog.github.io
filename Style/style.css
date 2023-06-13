@@ -1,0 +1,63 @@
+body {
+	margin: 0;
+}
+
+.Title {
+	text-align: center;
+}
+
+.Main {
+	display: flex;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.Left {
+	margin-right: 5px;
+	width: 20%;
+}
+
+.Center {
+	margin-right: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 60%;
+	text-align: left;
+	border-left: solid 1px;
+	border-right: solid 1px;
+}
+
+.Right {
+	margin-right: 5px;
+	width: 20%;
+}
+
+.Twitter {
+	visibility: visible;
+	width: 100%;
+	height: 880px;
+	position: sticky;
+	top: 10px;
+	z-index: 10;
+}
+
+footer{
+    font-size: 80%;
+    width: 100%;
+    text-align: center; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #313131;
+    margin-top: 10px;
+}
+
+footer address{
+    color: #FFFFFF;
+    letter-spacing: 5px;
+    font-style: normal;
+	
+}
+
+footer address a {
+	color: #00FFFF;
+}
