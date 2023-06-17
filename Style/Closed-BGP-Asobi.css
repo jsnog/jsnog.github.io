@@ -1,0 +1,22 @@
+.Center .BGP-Slide {
+	background: rgba(0, 0, 0, 0.1) padding-box;
+	width: 50%;
+	aspect-ratio: 560 / 315;
+}
+
+.Center .BGP-Table {
+	width: 50%;
+	aspect-ratio: 1/0.5;
+}
+
+@media screen and (max-width: 850px) {
+	.Center .BGP-Slide {
+		background: rgba(0, 0, 0, 0.1) padding-box;
+		width: 100%;
+		aspect-ratio: 560 / 315;
+	}
+	.Center .BGP-Table {
+		width: 100%;
+		aspect-ratio: 1/1;
+	}
+}
