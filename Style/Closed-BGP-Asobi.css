@@ -1,22 +1,10 @@
-.Center .BGP-Slide {
-	background: rgba(0, 0, 0, 0.1) padding-box;
+.Center iframe {
 	width: 50%;
-	aspect-ratio: 560 / 315;
-}
-
-.Center .BGP-Table {
-	width: 50%;
-	aspect-ratio: 1/0.5;
+	aspect-ratio: 1/0.7;
 }
 
 @media screen and (max-width: 850px) {
-	.Center .BGP-Slide {
-		background: rgba(0, 0, 0, 0.1) padding-box;
+	.Center iframe {
 		width: 100%;
-		aspect-ratio: 560 / 315;
-	}
-	.Center .BGP-Table {
-		width: 100%;
-		aspect-ratio: 1/1;
 	}
 }
