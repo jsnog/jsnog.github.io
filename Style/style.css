@@ -30,6 +30,10 @@ body {
 	border-left: solid 1px;
 	border-right: solid 1px;
 }
+.Center iframe {
+	width: 50%;
+	aspect-ratio: 1/0.7;
+}
 
 .Right {
 	padding-left: 5px;
@@ -69,6 +73,9 @@ footer address {
 		padding-right: 5%;
 		margin-left: 5%;
 		margin-right: 5%;
+	}
+	.Center iframe {
+		width: 100%;
 	}
 	.Right {
 		width: 90%;
