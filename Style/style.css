@@ -30,6 +30,10 @@ body {
 	border-left: solid 1px;
 	border-right: solid 1px;
 }
+.Center iframe {
+	width: 50%;
+	aspect-ratio: 1/0.7;
+}
 
 .Right {
 	padding-left: 5px;
@@ -45,7 +49,7 @@ body {
 	z-index: 10;
 }
 
-footer{
+footer {
     font-size: 80%;
     width: 100%;
     text-align: center; 
@@ -53,8 +57,33 @@ footer{
     padding-bottom: 10px;
 }
 
-footer address{
+footer address {
     letter-spacing: 5px;
     font-style: normal;
 	
+}
+
+@media screen and (max-width: 850px) {
+	.Main {
+		display: block;
+	}
+	.Center {
+		width: 80%;
+		padding-left: 5%;
+		padding-right: 5%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	.Center iframe {
+		width: 100%;
+	}
+	.Right {
+		width: 90%;
+		padding-left: 5%;
+		padding-right: 5%;
+		border-top: solid 1px;
+	}
+	.Twitter {
+		width: 100%;
+	}
 }
