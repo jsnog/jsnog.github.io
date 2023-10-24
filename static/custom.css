@@ -1,0 +1,23 @@
+iframe {
+  width: 100%;
+  aspect-ratio: 1 / 0.7;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto 40px;
+  margin: 1rem;
+  height: 3rem;
+}
+
+.banner-item{
+  width: 250px;
+  margin: 10px 10px;
+}
+
+.banner-item img{
+  max-width: 100%;
+  height: auto;
+}

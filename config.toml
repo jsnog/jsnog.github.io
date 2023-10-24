@@ -1,0 +1,33 @@
+baseURL = "https://jsnog.github.io/"
+title = "JSNOG | Japan Student Network Operators Group"
+theme = "hugo-geekdoc"
+
+pluralizeListTitles = false
+
+# Geekdoc required configuration
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+disablePathToLower = true
+
+# Required if you want to render robots.txt template
+enableRobotsTXT = true
+
+[params]
+  geekdocLogo = "images/logo.png"
+  geekdocBreadcrumb = true
+  geekdocRepo = "https://github.com/jsnog/jsnog.github.io"
+  geekdocEditPath = "edit/main/"
+  [params.geekdocContentLicense]
+    name = "ライセンスを後で決める"
+    link = "https://jsnog.github.io/"
+[markup]
+  [markup.goldmark.renderer]
+    # Needed for mermaid shortcode
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 9
+
+[taxonomies]
+   tag = "tags"
+

@@ -1,2 +1,2 @@
-### 学生ネットワーク連合のWebサイト
+## 学生ネットワーク連合のWebサイト
 https://jsnog.github.io/
