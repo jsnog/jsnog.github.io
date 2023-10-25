@@ -6,17 +6,17 @@ weight: 900
 開催日時 : 2023年9月16日 19:30~
 
 登壇者 : 
-- 名前 : arkw さん
+- arkw さん
   - 登壇タイトル : 「なれる! 村上さん Misskeyサーバ構築入門 」
-  - プレゼンURL : https://speakerdeck.com/arkw/nareru-c...
+  - プレゼンURL : https://speakerdeck.com/arkw/nareru-cun-shang-san-misskeysabagou-zhu-ru-men
 
-- 名前:間瀬BB
+- 間瀬BB
   - 登壇タイトル:「家の鯖🐟」
-  - プレゼンURL : https://speakerdeck.com/masebb/jia-no...
+  - プレゼンURL : https://speakerdeck.com/masebb/jia-noqing
 
-- 名前: alt さん
+- alt さん
   - 登壇タイトル :「APNIC56 を爆速で振り返る」
-  - プレゼンURL : https://slides.jj1lfc.dev/230916-jsno...
+  - プレゼンURL : https://slides.jj1lfc.dev/230916-jsnog-lt-2-alt
 
 ## アーカイブ動画
 
