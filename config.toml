@@ -1,5 +1,5 @@
 baseURL = "https://jsnog.github.io/"
-title = "JSNOG | Japan Student Network Operators Group"
+title = "JSNOG | JApan Student Network Operators Group"
 theme = "hugo-geekdoc"
 
 pluralizeListTitles = false
@@ -18,8 +18,8 @@ enableRobotsTXT = true
   geekdocRepo = "https://github.com/jsnog/jsnog.github.io"
   geekdocEditPath = "edit/main/"
   [params.geekdocContentLicense]
-    name = "ライセンスを後で決める"
-    link = "https://jsnog.github.io/"
+    name = "CC BY-NC-SA 4.0"
+    link = "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja"
 [markup]
   [markup.goldmark.renderer]
     # Needed for mermaid shortcode
