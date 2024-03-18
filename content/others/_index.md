@@ -1,5 +1,5 @@
 ---
-title: "その他"
+title: 'その他'
 weight: 900
 ---
 

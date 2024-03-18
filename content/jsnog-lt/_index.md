@@ -1,3 +1,3 @@
 ---
-title: "JSNOG-LT"
+title: 'JSNOG-LT'
 ---

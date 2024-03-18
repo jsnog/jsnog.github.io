@@ -1,5 +1,5 @@
 ---
-title: "日本学生ネットワークオペレーター連合 (JSNOG)"
+title: '日本学生ネットワークオペレーター連合 (JSNOG)'
 geekdocAlign: center
 ---
 

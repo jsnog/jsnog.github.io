@@ -1,5 +1,5 @@
 ---
-title: "JSNOG-LTとは"
+title: 'JSNOG-LTとは'
 weight: 10
 ---
 

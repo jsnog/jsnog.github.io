@@ -1,5 +1,5 @@
 ---
-title: "Q&A"
+title: 'Q&A'
 weight: 900
 ---
 

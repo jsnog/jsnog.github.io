@@ -1,5 +1,5 @@
 ---
-title: "概要"
+title: '概要'
 weight: 10
 ---
 

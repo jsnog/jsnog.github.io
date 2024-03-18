@@ -22,6 +22,19 @@ jobs:
         with:
           hugo-version: '0.119.0'
           extended: true
+      - name: Setup nodebrew
+        run: |
+          curl -L git.io/nodebrew | perl - setup
+          echo "$HOME/.nodebrew/current/bin" >> $GITHUB_PATH
+      - name: Install Node.js v20.6.0
+        run: |
+          nodebrew install v20.6.0; nodebrew use v20.6.0
+      - name: Setup Hugo theme hugo-geekdoc
+        run: |
+          pushd ./themes/hugo-geekdoc
+          npm install
+          npm run build
+          popd
       - name: Build
         run: hugo --minify
       - name: Upload artifact

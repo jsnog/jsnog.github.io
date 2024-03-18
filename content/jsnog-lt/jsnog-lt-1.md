@@ -1,5 +1,5 @@
 ---
-title: "JSNOG-LT-1"
+title: 'JSNOG-LT-1'
 weight: 900
 ---
 

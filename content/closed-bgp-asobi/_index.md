@@ -1,4 +1,4 @@
 ---
-title: "閉域網BGP遊び"
+title: '閉域網BGP遊び'
 weight: 800
 ---

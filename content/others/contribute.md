@@ -1,5 +1,5 @@
 ---
-title: "このWebサイトの編集方法"
+title: 'このWebサイトの編集方法'
 ---
 
 このWebサイトはオープンソースでGitHub上に公開されています。ぜひ、タイポの訂正やコンテンツなどの追加にご協力ください
@@ -33,7 +33,7 @@ hugo new content/hogehoge/foo.md
 
 ```md
 ---
-title: "タイトル"
+title: 'タイトル'
 weight: 900
 ---
 
