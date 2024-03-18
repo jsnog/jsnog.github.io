@@ -1,5 +1,5 @@
 baseURL = "https://jsnog.github.io/"
-title = "JSNOG | JApan Student Network Operators Group"
+title = "JSNOG | Japan Student Network Operators Group"
 theme = "hugo-geekdoc"
 
 pluralizeListTitles = false
@@ -30,4 +30,3 @@ enableRobotsTXT = true
 
 [taxonomies]
    tag = "tags"
-
