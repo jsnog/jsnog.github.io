@@ -1,9 +1,9 @@
 ---
-title: "(近日開催予定!)JSNOG-LT-4"
+title: "JSNOG-LT-4"
 weight: 901
 ---
 
-**開催日時 : 8月25日(日) 19:00〜**
+**開催日時 : 2024年8月25日(日) 19:00〜**
 
 [Googleカレンダーに登録するボタン](https://www.google.com/calendar/render?action=TEMPLATE&text=JSNOG-LT-4&dates=20240825T190000/20240825T210000&trp=undefined&trp=true&sprop=)
 
